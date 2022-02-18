@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On Off</title>
+</head>
+<body>
+    
+    <p id="demo">Click "Remove", and this paragraph will be removed from the DOM.</p>
+    <button id="theButton" onclick="myFunction()">Remove</button>
+
+    <script>
+
+        var onoff = 1
+        const myobj = document.getElementById("demo");
+        const mybttn = document.getElementById("theButton")
+
+        function myFunction() {
+
+            if (onoff == 1) {
+                myobj.innerHTML = 'Click "Spawn It Back", and the other paragraph will be back to the DOM.'	  
+                mybttn.innerHTML = "Spawn It Back"
+                onoff = 0
+            } else if (onoff == 0) {
+                myobj.innerHTML = 'Click "Remove", and this paragraph will be removed from the DOM.'	  
+                mybttn.innerHTML = "Remove"
+                onoff = 1
+            }
+        
+        }
+
+    </script>
+</body>
+</html>
