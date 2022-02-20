@@ -142,30 +142,24 @@ console.log(typeof showParams)
 
 let arrayKe = ["benke", "senke"]
 let dictKe = {
-   "id" : 20210205003,
-   "fullName" : "Ali Ata",
-   "department" : "Information Systems Engineering",
-   "Age" : 21,
-   "address" : {
-      "district" : "Üsküdar",
-      "city" : "İstanbul",
-      "country" : "Türkiye"
+   id : 20210205003,
+   fullName : "Ali Ata",
+   department : "Information Systems Engineering",
+   age : 21,
+   address : {
+      district : "Üsküdar",
+      city : "İstanbul",
+      country : "Türkiye"
    },
-   "contact" : {
-      "phone" : "+905326459275",
-      "email" : "aliatabusiness@gmail.com",
-      "linkedIn" : "https://www.linkedin.com/in/ali-kerem-ata-11149521a"
+   contact : {
+      phone : "+905326459275",
+      email : "aliatabusiness@gmail.com",
+      linkedIn : "https://www.linkedin.com/in/ali-kerem-ata-11149521a"
    },
-   "grade" : 3.23
+   grade : 3.23
 }
 
-console.log(dictKe.length)
 
-// let dataArray = []
+let {id, fullName, department, Age, address, contact, grade} = dictKe
 
-// for (i = 0; i < dictKe.length; i++) {
-//    dataArray.push(dictKe[i])
-// }
-
-// console.log(dataArray)
-
+console.log(fullName)
