@@ -7,6 +7,6 @@ const birthday = (name) => "Happy Birthday " + name + "!";
 
 console.log(birthday("Alex"))
 
-
-
 alert(`Hoş geldin ${isim()}!`)
+
+
