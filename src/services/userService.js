@@ -1,18 +1,20 @@
 export default class UserService{
 
+    constructor() {
+        this.users = []
+    }
+
     add (user) {
-        console.log(`user named ${user} has been added`)
+        this.users.push(user)
     }
 
 
     listUsers () {
-        console.log("users listed")
+        return this.users
     }
 
 
-    getById (id) {
-        console.log("user detail")
+    getById (Id) {
+        return this.users.find(u => u.id === Id)
     }
-
 }
-

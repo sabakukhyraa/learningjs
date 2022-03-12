@@ -49,3 +49,21 @@ console.log("Çalışan sayısı: " + getir.numberEmployees)
 Costumer.billCalculator = "Not right now!" //Class prototyping
 
 
+//----------------------------------second-------------------------------------------
+
+
+// class Customer {
+//     constructor(id, customerNumber) {
+//         this.id = id
+//         this.customerNumber = customerNumber 
+//     }
+// }
+
+
+// let customer1 = new Customer(1 , "202134")
+//prototyping
+// customer1.firstName = "Bahar" //instance prototyping
+// console.log(customer1.firstName)
+
+// Customer.something = "Something" //class prototyping
+// console.log(customer1.something) //undefined
