@@ -10,7 +10,6 @@ let user1 = new User(1, "Merve", "Metin")
 let user2 = new User(2, "Ali Kerem", "Ata")
 
 
-
 userService.add(user1)
 userService.add(user2)
 
